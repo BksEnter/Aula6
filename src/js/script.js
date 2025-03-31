@@ -55,3 +55,26 @@ console.log(texto.indexOf("ção"))
 //slice - retorna um trecho do texto com inicio e final
 let info = "Processaento de ponta";
 console.log(info.slice(2,8))
+
+//Operadores Aritméticos
+
+const num1 = 10;
+const num2 = 20;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+//Operadores lógicos
+
+const num3 = 10;
+const num4 = 20;
+
+console.log(num3 < num4);
+console.log(num3 > num4 && num4 < num3);
+console.log(num3 < num4 || num4 < num3);
+
+//Operadores de Comparação
+
+console.log(num3 == num4)
