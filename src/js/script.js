@@ -126,17 +126,25 @@ switch(time){
         console.log("Nenhuma das opções")
 }
 
-// ternario
+// Ternario
 
 let valor = 100
 
 let resultado = valor == 100 ? "Correto" : "Errado"
 console.log(resultado)
 
-// ternario encadeado
+// Ternario encadeado
 
 let produto = "notebook"
 const desconto = true;
 
 const preco = produto == "notebook" ? desconto ? 100 :200 : produto == "mouse" ? 30 :100;
 console.log(preco)
+
+// Estrutura da repetição
+
+// For
+
+for(let i=0; i<=10;i++){
+    console.log("O valor de I é:" ,i)
+}
