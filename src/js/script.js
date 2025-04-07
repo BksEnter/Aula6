@@ -3,8 +3,8 @@
 var nome="fiap";
 console.log(nome);
 
-let idade = 19;
-console.log(idade)
+let idadeint = 19;
+console.log(idadeint)
 
 const sobrenome="Fiapinho";
 console.log(sobrenome);
@@ -68,8 +68,8 @@ console.log(num1 / num2);
 
 //Operadores lógicos
 
-const num3 = 10;
-const num4 = 20;
+const num3 = 30;
+const num4 = 40;
 
 console.log(num3 < num4);
 console.log(num3 > num4 && num4 < num3);
@@ -77,4 +77,54 @@ console.log(num3 < num4 || num4 < num3);
 
 //Operadores de Comparação
 
-console.log(num3 == num4)
+console.log(num3 == num4);
+console.log(num3 === num4);
+
+// Estrutura Condicional 
+
+let logado = "fiap";
+
+if(logado == "fiap"){
+    console.log("É verdadeiro")
+}
+
+//if/else
+let usuario = "Teste"
+if(usuario == "Teste"){
+    console.log("Usuário Correto")
+}else{
+    console.log("Usuário errado")
+}
+
+// if encadeado / alinhado 
+
+let idade = 15;
+
+if(idade <= 15){
+    console.log("Menor de idade!")
+}else if(idade > 15 && idade < 18){
+    console.log("Não é maior mas pode entrar!")
+}else{
+    console.log("Pode entrar, é maior de idade!")
+}
+
+// switch
+
+let time = "São Paulo"
+
+switch(time){
+    case "Corinthians":
+        console.log("Não é o melhor Time")
+        break;
+    case "São Paulo":
+        console.log("Melhor Time")
+        break;
+    case "Palmeiras":
+        console.log("Não tem mundial")
+        break;
+    default:
+        console.log("Nenhuma das opções")
+}
+
+// ternario
+
