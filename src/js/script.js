@@ -128,3 +128,15 @@ switch(time){
 
 // ternario
 
+let valor = 100
+
+let resultado = valor == 100 ? "Correto" : "Errado"
+console.log(resultado)
+
+// ternario encadeado
+
+let produto = "notebook"
+const desconto = true;
+
+const preco = produto == "notebook" ? desconto ? 100 :200 : produto == "mouse" ? 30 :100;
+console.log(preco)
